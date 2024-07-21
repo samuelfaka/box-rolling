@@ -23,7 +23,7 @@
         background-color: red;
         height: 10vh;
         width: 25vw;
-        animation: pop 1s ease-in-out infinite;
+        animation: pop 3s ease-in-out infinite;
     }
     @keyframes pop {
         0%{
@@ -53,7 +53,7 @@
         height: 10vh;
         width: 22vw;
         border-radius: 100px;
-        animation: pop 1s ease-in-out infinite;
+        animation: pop 3s ease-in-out infinite;
     }
     @keyframes pop {
         0%{
@@ -89,7 +89,7 @@
         height: 10vh;
         width: 22vw;
         border-radius: 100px;
-        animation: pop 1s ease-in-out infinite;
+        animation: pop 3s ease-in-out infinite;
     }
     @keyframes pop {
         0%{
@@ -118,7 +118,7 @@
         background-color: chartreuse;
         height: 10vh;
         width: 25vw;
-        animation: pop 1s ease-in-out infinite;
+        animation: pop 3s ease-in-out infinite;
     }
     @keyframes pop {
         0%{
