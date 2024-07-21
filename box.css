@@ -11,6 +11,11 @@
     rotate: 0deg;
     animation: tal 1s ease infinite;
 }
+@keyframes tal{
+    100%{
+        rotate: 560deg;
+    }
+}
 @media screen and (max-width:950px) {
     .sec{
         display: flex;
@@ -72,7 +77,7 @@
         100%{
             scale: 1;
             opacity: 1;
-            rotate: 360deg;
+            rotate: 560deg;
         }
     }
 }
