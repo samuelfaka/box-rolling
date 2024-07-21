@@ -23,12 +23,60 @@
         background-color: red;
         height: 10vh;
         width: 25vw;
+        animation: pop 1s ease-in-out infinite;
+    }
+    @keyframes pop {
+        0%{
+            background-color: antiquewhite;
+        }
+        25%{
+            background-color: aqua;
+        }
+        30%{
+            background-color: bisque;
+        }
+        50%{
+            background-color: blueviolet;
+        }
+        75%{
+            background-color: chartreuse;
+        }
+        85%{
+            background-color: cyan;
+        }
+        100%{
+            background-color: deeppink;
+        }
     }
     .bg1{
         background-color: aquamarine;
         height: 10vh;
         width: 22vw;
         border-radius: 100px;
+        animation: pop 1s ease-in-out infinite;
+    }
+    @keyframes pop {
+        0%{
+            background-color: antiquewhite;
+        }
+        25%{
+            background-color: aqua;
+        }
+        30%{
+            background-color: bisque;
+        }
+        50%{
+            background-color: blueviolet;
+        }
+        75%{
+            background-color: chartreuse;
+        }
+        85%{
+            background-color: cyan;
+        }
+        100%{
+            background-color: deeppink;
+        }
     }
     .bg2{
         display: flex;
@@ -41,11 +89,59 @@
         height: 10vh;
         width: 22vw;
         border-radius: 100px;
+        animation: pop 1s ease-in-out infinite;
+    }
+    @keyframes pop {
+        0%{
+            background-color: antiquewhite;
+        }
+        25%{
+            background-color: aqua;
+        }
+        30%{
+            background-color: bisque;
+        }
+        50%{
+            background-color: blueviolet;
+        }
+        75%{
+            background-color: chartreuse;
+        }
+        85%{
+            background-color: cyan;
+        }
+        100%{
+            background-color: deeppink;
+        }
     }
     .bg4{
         background-color: chartreuse;
         height: 10vh;
         width: 25vw;
+        animation: pop 1s ease-in-out infinite;
+    }
+    @keyframes pop {
+        0%{
+            background-color: antiquewhite;
+        }
+        25%{
+            background-color: aqua;
+        }
+        30%{
+            background-color: bisque;
+        }
+        50%{
+            background-color: blueviolet;
+        }
+        75%{
+            background-color: chartreuse;
+        }
+        85%{
+            background-color: cyan;
+        }
+        100%{
+            background-color: deeppink;
+        }
     }
     .bg5{
         display: flex;
@@ -59,20 +155,5 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
-        rotate: 0deg;
-        scale: 0;
-        opacity: 0;
-        animation: pop 10s ease infinite;
-    }
-    @keyframes pop {
-        0%{
-            scale: 0;
-            opacity: 0;
-        }
-        100%{
-            scale: 1;
-            opacity: 1;
-            rotate: 0deg;
-        }
     }
 }
