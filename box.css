@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg{
+    background-color: red;
+    height: 20vh;
+    width: 10vw;
+    rotate: 0deg;
+    animation: tal 1s ease infinite;
+}
+@media screen and (max-width:950px) {
+    .sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .bg{
+        background-color: red;
+        height: 10vh;
+        width: 25vw;
+    }
+    .bg1{
+        background-color: aquamarine;
+        height: 10vh;
+        width: 22vw;
+        border-radius: 100px;
+    }
+    .bg2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .bg3{
+        background-color: blue;
+        height: 10vh;
+        width: 22vw;
+        border-radius: 100px;
+    }
+    .bg4{
+        background-color: chartreuse;
+        height: 10vh;
+        width: 25vw;
+    }
+    .bg5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .bg6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        rotate: 0deg;
+        scale: 0;
+        opacity: 0;
+        animation: pop 1s ease infinite;
+    }
+    @keyframes pop {
+        0%{
+            scale: 0;
+            opacity: 0;
+        }
+        100%{
+            scale: 1;
+            opacity: 1;
+            rotate: 360deg;
+        }
+    }
+}
